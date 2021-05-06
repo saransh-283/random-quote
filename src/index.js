@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Card from './App';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+var bgRandom = Math.floor(Math.random() * 12)
+document.body.style.backgroundImage = 'url(./img/' + bgRandom + '.jpg)'
+
+ReactDOM.render( < Card / > , document.getElementById('container'))

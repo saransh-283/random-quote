@@ -1,23 +1,23 @@
 import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class Card extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+  render() {
+    return (
+      <div className="card" >
+        <div className="card-body">
+          <blockquote className="blockquote">
+            <p className="quote">Quote</p>
+            <footer className="card-blockquote author">Footer</footer>
+          </blockquote>
+        </div>
+      </div>
+    )
+  }
 }
 
-export default App;
+export default Card;

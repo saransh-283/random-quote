@@ -1,6 +1,5 @@
 import './App.css';
 import React from 'react';
-import ReactDOM from 'react-dom';
 import quotesList from '../js/quotes'
 
 class Card extends React.Component {
@@ -17,14 +16,14 @@ class Card extends React.Component {
     return (
       <div className="card" >
         <div className="card-body">
-          <blockquote className="blockquote">
-            <p className="quote"><span className="inverted-commas">"</span>{this.state.text}<span className="inverted-commas">"</span></p>
-            <p className="card-blockquote author">{this.state.author}</p>
+          <blockquote>
+            <p id="quote">{this.state.text}</p>
+            <p className="author">- {this.state.author}</p>
           </blockquote>
           <footer id="footer">
             <div>
-              <a href="#" className="social-btn"><i className="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#" className="social-btn"><i className="fa fa-tumblr" aria-hidden="true"></i></a>
+              <a href="#" className="btn social-btn"><i className="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#" className="btn social-btn"><i className="fa fa-tumblr" aria-hidden="true"></i></a>
               </div>
             <div>
               <a href="#" className="btn" id="new-quote" onClick={this.changeQuote}>New Quote</a>

@@ -1,0 +1,54 @@
+@media (max-width: 800px) {
+    .card {
+        width: 70rem;
+        font-size: 1rem;
+        color: white;
+    }
+
+    #quote {
+        line-height: 1.75rem;
+        font-family: serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    .author {
+        text-align: right;
+        text-transform: capitalize;
+        font-size: 0.75rem;
+    }
+
+    .social-btn {
+        padding: .4rem;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+
+    #quote:before {
+        content: open-quote;
+        font-size: 1.75rem;
+        margin-right: .5rem;
+        font-weight: bold;
+        font-family: 'Coustard', serif;
+    }
+
+    #quote:after {
+        content: close-quote;
+        font-size: 1.75rem;
+        margin-left: .5rem;
+        font-weight: bold;
+        font-family: 'Coustard', serif;
+    }
+
+    #footer {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    .new-btn {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: normal;
+        width: 100%;
+    }
+}

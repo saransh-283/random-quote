@@ -20,7 +20,6 @@ function randomWallpaper() {
     else{
         current++
     }
-    console.log('hi')
 }
 
 randomWallpaper()

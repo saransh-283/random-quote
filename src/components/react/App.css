@@ -20,7 +20,7 @@
     margin-top: 5rem;
 }
 
-#quote {
+#text {
     line-height: 3.75rem;
     font-family: serif;
     text-transform: uppercase;
@@ -38,7 +38,7 @@
     color: white;
 }
 
-#quote:before {
+#text:before {
     content: open-quote;
     font-size: 3.75rem;
     margin-right: .5rem;
@@ -46,7 +46,7 @@
     font-family: 'Coustard', serif;
 }
 
-#quote:after {
+#text:after {
     content: close-quote;
     font-size: 3.75rem;
     margin-left: .5rem;
@@ -59,12 +59,12 @@
     letter-spacing: normal;
 }
 
-#twitter {
+#tweet-quote {
     background: #1da1f2;
     transition: background .15s;
 }
 
-#twitter:hover {
+#tweet-quote:hover {
     background: #0c90f0;
 }
 

@@ -23,7 +23,7 @@ class Card extends React.Component {
           </blockquote>
           <footer id="footer">
             <div id="social-btns">
-              <a href={"https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=%22"+this.state.text.split(' ').join('%20')+"%22%20-"+this.state.author.split(' ').join('%20')} className="btn social-btn" id="tweet-quote"><i className="fa fa-twitter" aria-hidden="true"></i></a>
+              <a target="_blank" href={"https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=%22"+this.state.text.split(' ').join('%20')+"%22%20-"+this.state.author.split(' ').join('%20')} className="btn social-btn" id="tweet-quote"><i className="fa fa-twitter" aria-hidden="true"></i></a>
               <a href={"https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,random&caption="+this.state.author.split(' ').join('%20')+"&content="+this.state.text.split(' ')+"&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button"} className="btn social-btn" id="tumblr"><i className="fa fa-tumblr" aria-hidden="true"></i></a>
               </div>
             <div id="new-btns">

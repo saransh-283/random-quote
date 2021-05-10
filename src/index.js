@@ -8,10 +8,18 @@ import bg1 from '../src/assets/img/1.jpg'
 import bg2 from '../src/assets/img/2.jpg'
 import bg3 from '../src/assets/img/3.jpg'
 
+var current = 0
+
 function randomWallpaper() {
-    var bgRandom = Math.floor(Math.random() * 4)
+    
     var bgArr = [bg0, bg1, bg2, bg3]
-    document.body.style.backgroundImage = 'url(' + bgArr[bgRandom] + ')'
+    document.body.style.backgroundImage = 'url(' + bgArr[current] + ')'
+    if(current===bgArr.length-1){
+        current=0
+    }
+    else{
+        current++
+    }
     console.log('hi')
 }
 

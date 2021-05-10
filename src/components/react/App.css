@@ -40,7 +40,7 @@
 
 #text:before {
     content: open-quote;
-    font-size: 3.75rem;
+    font-size: 1.75rem;
     margin-right: .5rem;
     font-weight: bold;
     font-family: 'Coustard', serif;
@@ -48,7 +48,7 @@
 
 #text:after {
     content: close-quote;
-    font-size: 3.75rem;
+    font-size: 1.75rem;
     margin-left: .5rem;
     font-weight: bold;
     font-family: 'Coustard', serif;

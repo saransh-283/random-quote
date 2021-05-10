@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/random-quote/static/css/main.10b432f7.chunk.css",
+    "main.css": "/random-quote/static/css/main.1d4a799f.chunk.css",
     "main.js": "/random-quote/static/js/main.858012e2.chunk.js",
     "main.js.map": "/random-quote/static/js/main.858012e2.chunk.js.map",
     "runtime-main.js": "/random-quote/static/js/runtime-main.bdcaaf74.js",
@@ -8,7 +8,7 @@
     "static/js/2.d40695bc.chunk.js": "/random-quote/static/js/2.d40695bc.chunk.js",
     "static/js/2.d40695bc.chunk.js.map": "/random-quote/static/js/2.d40695bc.chunk.js.map",
     "index.html": "/random-quote/index.html",
-    "static/css/main.10b432f7.chunk.css.map": "/random-quote/static/css/main.10b432f7.chunk.css.map",
+    "static/css/main.1d4a799f.chunk.css.map": "/random-quote/static/css/main.1d4a799f.chunk.css.map",
     "static/js/2.d40695bc.chunk.js.LICENSE.txt": "/random-quote/static/js/2.d40695bc.chunk.js.LICENSE.txt",
     "static/media/0.02520625.jpg": "/random-quote/static/media/0.02520625.jpg",
     "static/media/1.f5e3c788.jpg": "/random-quote/static/media/1.f5e3c788.jpg",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.bdcaaf74.js",
     "static/js/2.d40695bc.chunk.js",
-    "static/css/main.10b432f7.chunk.css",
+    "static/css/main.1d4a799f.chunk.css",
     "static/js/main.858012e2.chunk.js"
   ]
 }
